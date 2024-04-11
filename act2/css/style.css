@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: a, sans-serif;
+    font-weight: 400;
+    font-style: 1rem;
+
+}
+body{
+    background-image: url(ma.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set body height to fill viewport */
+    display: flex; /* Use flexbox to control content layout */
+    flex-direction: column;
+
+}
+.content {
+    flex: 1; /* Grow to fill remaining space */
+    overflow-y: auto; /* Add scroll if content exceeds viewport height */
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    text-align: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sectionOne{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    height: 40vh;
+}
+
+
+.info{
+    width: 350px;
+}
+
+.info :is(h1){
+    font-family: sans-serif;
+    font-size:2rem;
+    padding: 10px;
+}
+
+.info :is(p){
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.info :is(button){
+    cursor:grab;
+    font-weight: 100;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(10, 0, 0);
+    background-color: pink;
+    font-family: sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.p1{
+    padding: 10px;
+}
+
+.sectionTwo{
+    text-align: center;
+    padding: 10px;
+}
+
+.sectionTwo h1{
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.sectionTwo img{
+    height: 250px;
+    width: 250px;
+}
+
+.sectionTwo button{
+    color: rgb(0, 0, 0);
+    background-color: pink;
+    margin-top: 10px;
+    cursor:grab;
+    font-size: 1rem;
+    padding: 10px;
+}   
+
+.sectionTwo p{
+    padding: 10px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+
+}
